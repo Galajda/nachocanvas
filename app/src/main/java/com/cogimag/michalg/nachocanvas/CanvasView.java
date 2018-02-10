@@ -13,6 +13,8 @@ import android.view.View;
 
 /**
  * Created by MichalG HP Envy on 2/8/2018.
+ * Idea for extending View class from https://www.javatpoint.com/andriod-simple-graphics-example
+ *
  */
 
 public class CanvasView extends View {
