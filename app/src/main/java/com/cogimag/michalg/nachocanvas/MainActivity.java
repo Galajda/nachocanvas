@@ -27,7 +27,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         colorSpinner.setAdapter(adapter);
         colorSpinner.setOnItemSelectedListener(this);
-        canvasView = (CanvasView)findViewById(R.id.cnvLeinwand);
+//        canvasView = (CanvasView)findViewById(R.id.cnvLeinwand);
+        canvasView = findViewById(R.id.cnvLeinwand);
 
         canvasView.setOnTouchListener(
                 new View.OnTouchListener() {
