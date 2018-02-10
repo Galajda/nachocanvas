@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NachoCanvas</string>
+    <string-array name="spinner_choices">
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Black</item>
+        <item>Eraser</item>
+    </string-array>
+</resources>
